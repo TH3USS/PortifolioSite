@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*--------------NAV-BAR------------------*/
+  
+  .nav_bar{
+    padding: 1%;
+    display: flex;
+    background-color: #e9264a;
+    color: white;
+  }
+  
+  .logo{
+    margin-left: 1%;
+  }
+  
+  .nav_sections{
+    display: flex;
+    /*gap: 10%;*/
+    position: absolute;
+    right: 150px;  
+  }
+  
+  li{
+    list-style-type: none;
+    margin: 0 15px 0 15px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .light_button{
+    position: absolute;
+    right: 80px;
+  }
+  
+  /*-----------------HOME------------------*/
+  
+  .home{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    background-color: #101010;
+    color: white;
+  }
+  
+  .photo{
+    
+  }
+  
+  .name{
+    font-size: 40px;
+  }
+  
+  .right_text{
+    
+  }
+  
+  .background_texts{
+    position: absolute;
+    opacity: 30%;
+  }
+  
+  .button_cv{
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 20px;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  /*-----------------ABOUT------------------*/
+  
+  .about{
+    height: 90vh;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9264a;
+    color: white;
+  }
+  
+  .title_about{
+    margin-bottom: 5%;
+  }
+  
+  /*-----------------HABILITIES----------------*/
+  
+  .abilities{
+    height: 90vh;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #101010;
+    color: white;
+  }
+  
+  .habilities_images{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .habilities_images img{
+    margin: 50px;
+  }
+  
+  /*-----------------Projetos----------------*/
+  
+  .projects{
+    height: 90vh;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #101010;
+    gap: 80px;
+  }
+  
+  .project_card{
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: thistle;
+    gap:10px;
+  }
+  
+  .card_buttons button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: violet;
+    margin-top: 20px;
+  }
+  
+  /*-----------------Contact----------------*/
+  
+  .contact{
+    height: 90vh;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #101010;
+    gap: 80px;
+    color: white;
+  }
+  
+  .networks_images{
+    display: flex;  
+  }
+  
+  .contact_form{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .form_texts{
+    padding: 1%;
+    border-radius: 5px;
+  }
+  
+  .input1{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #101010;
+  }
+  
+  .input2{
+    width: 100%;
+    height: 10rem;
+    padding: 10px;
+    color: white;
+    background-color: #101010;
+  }
+  
+  .form_button{
+    width: 100%;
+    padding: 10px;
+    background-color: #e9264a;
+    color: white;
+    border: none;
+  }
+  
+  /*-----------------FOOTER----------------*/
+  
+  footer{
+    padding: 2%;
+    background-color: #e9264a;
+    color: white;
+  }
+  
+  .return_button{
+    position: absolute;
+    right: 40px;
+  }
