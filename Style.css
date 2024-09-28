@@ -12,15 +12,22 @@ caesar dressng*/
   margin: 0;
   padding: 0;
   font-family: 'Montserrat';
+
 }
 
 /*--------------NAV-BAR------------------*/
+body{
+  overflow-x: hidden;
+}
 
 .nav_bar{
+  width: 100vw;
   padding: 1%;
   display: flex;
+  position: fixed;
   background-color: #e9264a;
   color: white;
+  z-index: 20;
 }
 
 .logo{
@@ -29,8 +36,7 @@ caesar dressng*/
 
 .nav_sections{
   display: flex;
-  /*gap: 10%;*/
-  position: absolute;
+  position: fixed;
   right: 150px;  
 }
 
@@ -45,14 +51,14 @@ a{
 }
 
 .light_button{
-  position: absolute;
+  position: fixed;
   right: 80px;
 }
 
 /*-----------------HOME------------------*/
 
 .home{
-  height: 90vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   padding: 5%;
@@ -73,16 +79,6 @@ a{
   margin: 5%;
 }
 
-.background_texts{
-  position: absolute;
-  opacity: 30%;
-  transform: rotate(45deg);
-}
-
-.text1{
-  background-color: red
-}
-
 .button_cv{
   padding: 15px;
   border: none;
@@ -93,27 +89,102 @@ a{
   border: 2px solid white;
 }
 
+/*/////////// TAGS ////////////*/
+
+.background_tag{
+  position: absolute;
+}
+
+.tag1{
+  transform: rotate(45deg);
+}
+
+.tag2{
+  transform: rotate(80deg);
+}
+
+.tag3{
+  transform: rotate(3deg);
+}
+
+.tag4{
+  transform: rotate(-50deg);
+}
+
+.tag{
+  background-color: rgb(248, 32, 32);  
+  position: absolute;
+  color: white;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.text1{  
+  width: 50rem;
+  top: -83rem;
+  left: 30rem;
+}
+
+.text2{
+  width: 70rem;
+  left: -30rem;
+}
+
+.text3{
+  width: 125rem;
+  top: 17rem;
+  left: -7rem;
+}
+
+.text4{
+  width: 50rem;
+  top: -11rem
+}
+
+
+
 /*-----------------ABOUT------------------*/
 
 .about{
-  height: 90vh;
+  position: relative;
+  height: 80vh;
   padding: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #e9264a;
-  color: white;
+  color: white;  
 }
 
 .title_about{
   margin-bottom: 5%;
 }
 
+.text_left{  
+  transform: rotate(90deg) perspective(2000px) rotateX(50deg) scaleX(1.5) scaleY(3);
+  transform-origin: left;
+  left: 120px;
+  top: -10px
+}
+
+.text_right{  
+  transform: rotate(-90deg) perspective(2000px) rotateX(50deg) scaleX(1.5) scaleY(3);
+  transform-origin: right;
+  right: 120px;
+  top: -10px
+}
+
+.text_left, .text_right{
+  font-weight: 700;
+  font-size: 6rem;
+  position: absolute;
+}
+
 /*-----------------HABILITIES----------------*/
 
 .abilities{
-  height: 90vh;
+  height: 80vh;
   padding: 5%;
   display: flex;
   flex-direction: column;
@@ -151,10 +222,9 @@ a{
   font-family: 'Six Caps';
   position: absolute;
   font-size: 61vw;
-  transform: scaleY(1.2);
+  transform: scaleY(0.9);
   
-  animation: degrade 10s linear infinite alternate;
-  
+  animation: degrade 10s linear infinite alternate;  
   -webkit-background-clip: text;  
   -webkit-text-fill-color: transparent;
 }
@@ -181,7 +251,7 @@ a{
 /*-----------------Contact----------------*/
 
 .contact{
-  height: 90vh;
+  height: 80vh;
   padding: 5%;
   display: flex;
   flex-direction: column;
@@ -245,7 +315,7 @@ footer{
   right: 40px;
 }
 
-/*----------ANIMATIONS---------*/
+/*//////////ANIMATIONS///////////*/
 
 @keyframes degrade {
   0%{
