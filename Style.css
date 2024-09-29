@@ -239,6 +239,7 @@ a{
   background: linear-gradient(45deg, #e94326, #e9264a, #eb0f0f, #e9264a, #e95c26);
   background-size: 1200px 400px;
   animation: degrade 10s linear infinite alternate;
+  transition: 0.3s;
 }
 
 /*/////////// HEXAGON ////////////*/
@@ -261,22 +262,59 @@ a{
   position: absolute;
   top: -28.87px;
   left: 0;
-  width: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 30px solid var(--third-color);
+  width: 100px;
+  height: 30px;
+  background: var(--third-color);
+  background-size: 1200px 400px;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }
+
 
 .hexa:after {
   content: "";
   position: absolute;
   bottom: -28.87px;
   left: 0;
-  width: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 30px solid var(--third-color);
+  width: 100px;
+  height: 30px;
+  background: var(--third-color);
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
   z-index: 0;
+}
+
+
+.hexa:hover {
+  width: 150px;
+  height: 62.75px;
+  transform: rotate(0deg);
+  background: linear-gradient(45deg, #e94326, #e9264a, #eb0f0f, #e9264a, #e95c26);
+  background-size: 1200px 400px;
+  animation: degrade 10s linear infinite alternate;
+  transition: 0.3s;
+}
+
+.hexa:hover:before{
+  top: -45.87px;
+  left: 0;
+  width: 150px;
+  height: 45.8px;
+  background: linear-gradient(45deg, #e94326, #e9264a, #eb0f0f, #e9264a, #e95c26);
+  background-size: 1200px 400px;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%); 
+  animation: degrade 10s linear infinite alternate;
+  transition: 0.3s;
+}
+
+.hexa:hover:after{
+  bottom: -45.87px;
+  left: 0;
+  width: 150px;
+  height: 45.8px;
+  background: linear-gradient(45deg, #e94326, #e9264a, #eb0f0f, #e9264a, #e95c26);
+  background-size: 1200px 400px;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);  
+  animation: degrade 10s linear infinite alternate;
+  transition: 0.3s;
 }
 
 .card_logo{
@@ -316,6 +354,19 @@ a{
 
 .star::after {
   transform: rotate(45deg);
+}
+
+.star:hover{
+  transform: rotate(20deg);
+}
+
+.star:hover, .star:hover::after, .star:hover::before{
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, #e94326, #e9264a, #eb0f0f, #e9264a, #e95c26);
+  background-size: 1200px 400px;
+  animation: degrade 10s linear infinite alternate;
+  transition: 0.3s;
 }
 
 .star_logo{
@@ -358,11 +409,26 @@ a{
   transform: rotate(60deg);
 }
 
+.star2:hover{
+  transform: rotate(0deg);
+}
+
+.star2:hover, .star2:hover::after, .star2:hover::before{
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, #e94326, #e9264a, #eb0f0f, #e9264a, #e95c26);
+  background-size: 1200px 400px;
+  animation: degrade 10s linear infinite alternate;
+  transition: 0.3s;
+}
+
 .star2_logo{
   height: 100%;
   position: absolute;
   z-index: 1;
 }
+
+/*/////////////// SQUARE /////////////////*/
 
 .square{
   width: 100px;
@@ -373,10 +439,18 @@ a{
   border-radius: 25px;
   background: var(--third-color);
   transform: rotate(10deg);
-  /*background: linear-gradient(45deg, #e94326, #e9264a, #eb0f0f, #e9264a, #e95c26);
-  background-size: 1200px 400px;
-  animation: degrade 10s linear infinite alternate; */
 }
+
+.square:hover{
+  width: 130px;
+  height: 130px;
+  transform: rotate(0deg);
+  background: linear-gradient(45deg, #e94326, #e9264a, #eb0f0f, #e9264a, #e95c26);
+  background-size: 1200px 400px;
+  animation: degrade 10s linear infinite alternate;
+  transition: 0.3s;
+}
+
 
 /*////////////////////////////////*/
 
