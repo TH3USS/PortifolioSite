@@ -1,18 +1,19 @@
-# Primeira página de portfólio  
+# First Portfolio Page
 
-Página => [![Portfolio](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://th3uss.github.io/PortifolioSite/)  
+Page => [![Portfolio](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://th3uss.github.io/PortifolioSite/)
 
-### Meu primeiro portfólio feito com HTML e CSS!  
+### My first portfolio built with HTML and CSS!
 
-Este é o meu primeiro portfólio, criado com **HTML** e **CSS**, onde aprendi os conceitos básicos para desenvolver páginas web.  
+This is my very first portfolio, created using **HTML** and **CSS**, where I learned the basic concepts of building web pages.
 
 <hr>  
 
-## Sobre o Projeto  
-Oi, eu sou o Matheus 👋<br>  
-Esse é um projeto especial, pois marca o início da minha jornada como desenvolvedor web.  
-Foi feito com o intuito de aprender e aplicar os fundamentos de **HTML** e **CSS**, criando uma página simples e funcional que apresenta informações sobre mim.  
+## About the Project
+
+Hi, I'm Matheus 👋<br>
+This is a special project for me, as it marks the beginning of my journey as a web developer.
+It was created with the purpose of learning and applying the fundamentals of **HTML** and **CSS**, resulting in a simple and functional page that shares information about me.
 
 <br>  
 
-> Este projeto é um marco no meu aprendizado e representa o começo do meu desenvolvimento como criador de páginas web.  
+> This project is a milestone in my learning and represents the beginning of my growth as a web page creator.
